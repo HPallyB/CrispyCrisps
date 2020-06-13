@@ -1,8 +1,40 @@
+h1 {
+    text-align: center;
+}
+
 body { 
-    background-color: greenyellow;
+    background-color: wheat;
 }
 
 #vareitycrisps {
     width: 25%;
     height: 25%;
+}
+
+.doritos {
+    height: 250px;
+    width: 350px;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.intro-wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.parent {
+    height: 200px;
+}
+
+.paragraph {
+    width: 50%;
+    height: inherit;
+    float: left;
+}
+
+.bullets {
+    width: 50%;
+    height: inherit;
+    float: right;
 }
